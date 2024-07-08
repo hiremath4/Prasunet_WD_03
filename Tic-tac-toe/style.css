@@ -1,0 +1,66 @@
+body{
+    background-color: #548687;
+    text-align: center;
+}
+.b{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 1rem;
+    border: none;
+}
+
+#game-board {
+    display: none;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius:10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cell {
+    border: 5px solid green;
+    border-radius:10px;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#mode-selection button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.hide{
+    display: none;
+}
+#msg{
+    color: rgb(190, 15, 15);
+    font-size: 7vmin;
+}
+#new-btn{
+    padding: 1rem;
+    margin-top: 25px;
+    font-size: 1.25rem;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 1rem;
+    border: none;
+}
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: black;
+    color: blanchedalmond;
+    border-radius: 1rem;
+    border: none;
+}
+

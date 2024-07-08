@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="msg-container hide">
+        <button id="new-btn">New Game</button>
+    </div>
+    <h1><br>Tic-Tac-Toe<br> <hr></h1>
+    <div id="mode-selection">
+        <button class="b" onclick="startTwoPlayerGame()">Duo Player</button>
+        <button class="b" onclick="startAIGame()">Single Player</button>
+    </div>
+    <div id="game-board">
+        <div class="cell" onclick="makeMove(0)"></div>
+        <div class="cell" onclick="makeMove(1)"></div>
+        <div class="cell" onclick="makeMove(2)"></div>
+        <div class="cell" onclick="makeMove(3)"></div>
+        <div class="cell" onclick="makeMove(4)"></div>
+        <div class="cell" onclick="makeMove(5)"></div>
+        <div class="cell" onclick="makeMove(6)"></div>
+        <div class="cell" onclick="makeMove(7)"></div>
+        <div class="cell" onclick="makeMove(8)"></div>
+    </div><hr><br>
+    <button id="reset-btn">Reset Game</button>
+    <script src="script.js"></script>
+</body>
+</html>
